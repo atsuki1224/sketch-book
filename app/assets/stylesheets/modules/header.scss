@@ -1,0 +1,28 @@
+.header {
+  background-color: #FF9900;
+  height: 100px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  position: fixed;
+  &__left-box {
+    background-color: black;
+    height: 100px;
+    width: 60%;
+    float: left;
+    &--logo {
+      color: white;
+      line-height: 100px;
+      font-size: 40px;
+      margin-left: 50px;
+
+    }
+  &--triangle {
+    width: 100px;
+    height: 100px;
+      border-right: 100px solid transparent;
+      border-top: 100px solid black;
+    float: left;
+  }
+  }
+}

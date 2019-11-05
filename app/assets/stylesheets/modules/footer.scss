@@ -1,0 +1,31 @@
+.footer {
+  background-color: #FF9900;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  z-index: 1;
+  position: fixed;
+  &__left {
+    height: 100px;
+    width: 30%;
+    float: left;
+    &--post {
+    }
+    &--user {
+    }
+  }
+  .footer__triangle {
+    width: 0;
+    height: 0;
+      border-left: 100px solid transparent;
+      border-bottom: 100px solid black;
+  }
+  .footer__right {
+    background-color: black;
+    height: 100px;
+    width: 70%;
+    float: right;
+  }
+}
